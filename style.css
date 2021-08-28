@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("bg3.jpg");
+    height: 150vh;
+    font-family: bold;
+    width: 24rem;
+
+height: 50rem;
+box-shadow: 10px 10px 15px #20e4e4;
+position: relative;
+margin: 6% auto;
+border-radius: 1rem;
+font-weight: bolder;
+background-color: hsl(177, 82%, 59%);
+padding: 8px;
+color: #f09494;
+text-align: center;
+
+}
+
+.main-container{
+    
+    background: linear-gradient(rgba(117, 235, 170, 0.932), rgba(218, 231, 98, 0.932));
+    padding: 40px;
+    /* height: 200px; */
+    /* width: 600px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.heading{
+    background: linear-gradient(rgba(231, 95, 95, 0.877), rgba(235, 80, 80, 0.87));
+    /* height: 200px;
+    width: 600px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#name-box{
+    margin-top: 20px;
+    background: linear-gradient(#60cfebee, #9161ebda);
+    margin-bottom: 20px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 19px;
+    color: rgb(188, 236, 13);
+}
+
+#smt-btn{
+    background: linear-gradient(rgba(221, 86, 86, 0.918), rgba(241, 70, 70, 0.925));
+    height: 80px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 18px;
+    color:rgb(233, 175, 220);
+    border: none;
+    transition: all 0.5s ease-out;
+}
+
+#smt-btn:hover{
+    background-color: rgb(245, 117, 202);
+    color: rgb(134, 241, 72);
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    
+} 
